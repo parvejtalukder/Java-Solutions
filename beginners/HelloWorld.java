@@ -1,5 +1,13 @@
+import java.util.Scanner;
+
 public class HelloWorld {
+
+
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        System.out.println(number);
+
+        input.close();
     }
 }
