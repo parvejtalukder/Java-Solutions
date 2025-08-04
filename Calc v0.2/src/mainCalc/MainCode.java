@@ -18,7 +18,8 @@ public class MainCode {
 		System.out.print("Enter Another Number: ");
 		numTwo = inp.nextDouble();
 		System.out.print("Enter Your Operator: ");
-		sign = inp.next().charAt(0);;
+		sign = inp.next().charAt(0);
+		inp.close();
 
 		if (sign == '/' || sign == '%') {
 			if (numTwo == 0.00) {
@@ -62,6 +63,5 @@ public class MainCode {
 			System.out.println("      ");
 		}
 		System.out.println("----------------------------");
-		inp.close();
 	}
 }
