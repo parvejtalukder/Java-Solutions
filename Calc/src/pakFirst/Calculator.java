@@ -20,6 +20,7 @@ public class Calculator {
 		sign = input.next().charAt(0);
 		System.out.println("<<| Enter Another Number: ");
 		numTwo = input.nextDouble();
+		input.close();
 		// Operation
 		if (sign == '+') {
 			result = numOne + numTwo;
