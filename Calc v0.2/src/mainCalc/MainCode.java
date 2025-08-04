@@ -51,7 +51,7 @@ public class MainCode {
 		System.out.print("   Result   ");
 		System.out.print("--------\n");
 		if ((int)numOne == numOne && (int)numTwo == numTwo) {
-			System.out.print("        ");
+			System.out.print("      ");
 			System.out.printf("%d %c %d = ", (int)numOne, sign, (int)numTwo);
 			System.out.printf("%.0f", Ans);	
 			System.out.println("      ");	
