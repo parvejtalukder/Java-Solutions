@@ -21,7 +21,6 @@ public class Main {
 		netDifference = totalIncremented - totalSalary;
 		System.out.println();
 	    System.out.printf("Company Have To Pay Extra %.2f BDT\n", netDifference);
-		// System.out.println("www.parvejhusentalukder.com");
         scanner.close();
     }
 }
