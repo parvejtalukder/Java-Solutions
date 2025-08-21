@@ -1,3 +1,7 @@
+/* 
+Program Title: CGPA CALCULATOR 
+Programmer   : Md Parvej Husen Talukder
+*/
 package saleryCalc;
 import java.util.Scanner;
 public class cgpa {

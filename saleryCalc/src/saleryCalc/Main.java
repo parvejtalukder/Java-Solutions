@@ -1,3 +1,7 @@
+/* 
+Program Title: Initial and Increament Salary Difference 
+Programmer   : Md Parvej Husen Talukder
+*/
 package saleryCalc;
 import java.util.Scanner;
 public class Main {
