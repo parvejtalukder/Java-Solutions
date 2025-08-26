@@ -2,6 +2,3 @@ INDEX VERSION 1.132+/home/parvej/Academic/Programming/Java-Solutions/.metadata/.
 1865797976.index
 421583822.index
 2949097923.index
-3829386682.index
-215652817.index
-3060590812.index
