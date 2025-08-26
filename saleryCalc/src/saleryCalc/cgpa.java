@@ -15,7 +15,7 @@ public class cgpa {
         expectedCGPA = inp.nextFloat();
         System.out.print("How Many Course You Have: ");
         totalCourses = inp.nextInt();
-        float[][] grade_and_credit = new float[totalCourses][2];
+        float[][] grade_and_credit = new float[totalCourses][1];
         for(int i = 0; i < totalCourses; i++) {
             System.out.printf("Enter Your Grade in Course %d: ", i+1);
             grade_and_credit[i][0] = inp.nextFloat();
