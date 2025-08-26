@@ -1,6 +1,6 @@
 /* 
 Program Title: CGPA CALCULATOR 
-Programmer   : Md Parvej Husen Talukder
+By Md Parvej Husen Talukder
 */
 package saleryCalc;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ public class cgpa {
         float diff_in_cgpa;
         float gradepointXcredit = 0;
         float expectedCGPA, foundCGPA, totalCredits = 0;
-        System.out.print("Enter Your Expected CGPA: ");
+        System.out.print("\nEnter Your Expected CGPA: ");
         expectedCGPA = inp.nextFloat();
         System.out.print("How Many Course You Have: ");
         totalCourses = inp.nextInt();
