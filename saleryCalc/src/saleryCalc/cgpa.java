@@ -14,8 +14,8 @@ public class cgpa {
         System.out.print("\nEnter Your Expected CGPA: ");
         expectedCGPA = inp.nextFloat();
         System.out.print("How Many Course You Have: ");
-        totalCourses = inp.nextInt();
-        float[][] grade_and_credit = new float[totalCourses][1];
+        totalCourses = inp.nextInt(); 
+        float[][] grade_and_credit = new float[totalCourses][2];
         for(int i = 0; i < totalCourses; i++) {
             System.out.printf("Enter Your Grade in Course %d: ", i+1);
             grade_and_credit[i][0] = inp.nextFloat();
@@ -29,9 +29,9 @@ public class cgpa {
         System.out.println();
         if (diff_in_cgpa < 0) {
             diff_in_cgpa = Math.abs(diff_in_cgpa);
-            System.out.printf("I found more %.2f than i expected.\n", diff_in_cgpa);
+            System.out.printf("You found more CGPA: %.2f than you expected.\n", diff_in_cgpa);
         } else {
-            System.out.printf("I found less %.2f than i expected.\n", diff_in_cgpa);
+            System.out.printf("You found less CGPA: %.2f than you expected.\n", diff_in_cgpa);
         }
         inp.close();
     }

@@ -9,7 +9,7 @@ public class Main {
         Scanner toTake = new Scanner(System.in);
         System.out.print("Enter the number of employees: ");
         int numberOfEmployees = toTake.nextInt();
-        float[][] salaryIncrement = new float[numberOfEmployees][1];
+        float[][] salaryIncrement = new float[numberOfEmployees][2];
 		float[] salaryIncremented = new float[numberOfEmployees];
         float totalSalary = 0, totalIncremented = 0, netDifference;
         for (int i = 0; i < numberOfEmployees; i++) {
