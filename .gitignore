@@ -1,0 +1,4 @@
+github.txt
+*.zip
+.env
+node_modules/
